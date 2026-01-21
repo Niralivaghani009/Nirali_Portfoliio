@@ -73,8 +73,7 @@ export function Projects() {
                 <div className="absolute inset-0 bg-background/80 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center gap-4">
                   {project.title === "Odyssey" ? (
                     <p className="text-sm text-foreground px-6 text-center">
-                      it's personalize dashboard for copany so link is not available
-                    </p>
+                      Confidential Enterprise System - Details available in interview                    </p>
                   ) : project.url ? (
                     <a
                       href={project.url}
